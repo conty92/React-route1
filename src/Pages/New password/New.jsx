@@ -1,9 +1,5 @@
-const New = () => {
-    return ( 
-        <>
-            <h1>New passwor</h1>
-        </>
-     );
-}
- 
-export default New;
+const Contact = () => {
+    return <h1>Contact Me</h1>;
+  };
+  
+  export default Contact;

@@ -1,9 +1,5 @@
-const Forgot = () => {
-    return ( 
-        <>
-            <h1>Forgot password</h1>
-        </>
-     );
-}
- 
-export default Forgot;
+const Blogs = () => {
+    return <h1>Blog Articles</h1>;
+  };
+  
+  export default Blogs;

@@ -1,29 +1,25 @@
-const Land = () => {
-    return ( 
-        <>
-            <h1>landing</h1>
-            <ul>
-                <li>
-            <link to ="/"></link>
-            </li>
-            <li>
-            <link to ="/"></link>
-            </li>
-            <li>
-            <link to ="/"></link>
-            </li>
-            <li>
-            <link to ="/"></link>
-            </li>
-            <li>
-            <link to ="/"></link>
-            </li>
-            <li>
-            {/* <link to ="/"></link> */}
-            </li>
-            </ul>
-        </>
-     );
-}
- 
-export default Land;
+import { Outlet, Link } from "react-router-dom";
+
+const Layout = () => {
+  return (
+    <>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/blogs">Blogs</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
+
+      <Outlet />
+    </>
+  )
+};
+
+export default Layout;

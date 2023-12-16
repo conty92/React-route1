@@ -1,13 +1,5 @@
-import { Link } from "react-router-dom";
-
-Link
-const Inn = () => {
-    return ( 
-        <>
-            <h1>Sign-in</h1>
-          
-        </>
-     );
-}
- 
-export default Inn;
+const NoPage = () => {
+    return <h1>404</h1>;
+  };
+  
+  export default NoPage;
